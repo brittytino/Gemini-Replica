@@ -25,7 +25,7 @@ const Main = () => {
       <div className="nav">
         <div className="social">
           <a
-            href="https://github.com/StarKnightt/GeminiAIClone"
+            href="https://github.com/brittytino/Gemini-Replica"
             target="_blank"
             rel="noopener noreferrer"
           >
