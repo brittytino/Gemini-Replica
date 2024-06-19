@@ -9,7 +9,7 @@ import {
 
 // Retrieving environment variables for model name and API key
 const MODEL_NAME = import.meta.env.VITE_MODEL_NAME;
-const API_KEY = "AIzaSyCkugE7pixzOWO_Kq9rFh_WooFoPSdOcD0";
+const API_KEY = import.meta.env.VITE_MODEL_API_KEY;
 
 // Function to run the chat
 async function runChat(prompt) {
